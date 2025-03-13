@@ -1,0 +1,85 @@
+*{
+    margin: 0;
+    list-style-type: none;
+    text-decoration: none;
+}
+
+header {
+    background-color: #1d361f;
+    display: flex;
+    justify-content: space-evenly;
+    padding: 1.5em;
+    color: #ece5df;
+    align-items: center;
+}
+
+header img {
+    width: 50px;
+}
+
+header ul {
+    display: flex;
+}
+
+header ul li {
+    padding: 1em;
+}
+
+main {
+    background-color: #dfc8b6;
+}
+
+.casaDeFundo {
+    background-image: url(../IMG/CasaDeFundoOficial.jpg);
+    background-position: center 25%;
+    background-size: cover;
+    padding: 12em;
+    display: flex;
+    justify-content: center;
+}
+
+.casaDeFundo button {
+    padding: 1em;
+    width: 200px;
+    border-radius: 10px;
+    background-color: #ece5df9c;
+}
+
+.box {
+    display: flex;
+    justify-content: space-evenly;
+    padding: 10em;
+    gap: 10px;
+}
+
+.box-conteudo {
+    width: 500px;
+    height: 400px;
+    background-color: #1d361f;
+}
+
+.casaVenda1 {
+    background-image: url(../IMG/CasaVenda.jpg);
+    background-size: cover;
+    background-position: 100%
+}
+.casaVenda2 {
+    display: flex;
+    justify-content: end;
+    flex-direction: column;
+}
+.casaVenda2 img{
+    width: 100%;
+}
+
+.casaVenda2 p {
+    padding: 1em;
+    color: #ece5df;
+    font-size: 18px;
+}
+.casaVenda3 {
+    background-image: url(../IMG/CasaVenda2.jpg);
+    background-size: cover;
+    background-position: 100%
+}
+
