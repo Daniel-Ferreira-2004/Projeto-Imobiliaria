@@ -109,6 +109,11 @@ body {
 
 .div-1 ul li {
     text-align: center;
+    font-size: 15px;
+}
+
+.div-1 h3 {
+    padding-top: 1em;
 }
 
 .comentarios {
@@ -118,6 +123,7 @@ body {
     padding:  3em 5em 10em;
     color: black;
 }
+
 
 .div-2 {
     background-color: white;
