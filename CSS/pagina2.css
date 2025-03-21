@@ -14,7 +14,10 @@ header {
     color: #D3D3D3;
     align-items: center;
     width: 100vw;
-
+    position: fixed;
+    top: 0;
+    left: 0;
+    z-index: 999;
 }
 
 header a {
