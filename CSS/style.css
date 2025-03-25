@@ -21,6 +21,15 @@ p {
     font-family: "Lora", serif;
 }
 
+.fa-solid {
+    color: white;
+    padding: 1em;
+}
+
+.login a:hover {
+    color:  rgb(209, 79, 3);;
+}
+
 header {
     background-color: #000000;
     display: flex;
@@ -95,6 +104,11 @@ main {
     border-radius: 10px;
 }
 
+.box-conteudo:hover {
+    box-shadow: 20px 20px 20px black;
+    transition: 1s;
+}
+
 .casaVenda1 {
     background-image: url(../IMG/CasaVenda.jpg);
     background-size: cover;
@@ -145,6 +159,11 @@ main {
     border-radius: 10px;
 }
 
+.conteudo img:hover {
+    box-shadow: 20px 20px 20px black;
+    transition: 1s;
+}
+
 .conteudo p {
     font-size: 20px;
     color: #D3D3D3;
@@ -158,6 +177,11 @@ main {
     width: 600px;
     height: 400px;
     border-radius: 10px;
+}
+
+.localizacao iframe:hover {
+    box-shadow: 20px 20px 20px black;
+    transition: 1s;
 }
 
 .localizacao p {
@@ -179,9 +203,11 @@ footer {
 footer h3:hover {
     color: rgb(209, 79, 3);
 }
+
 footer p:hover {
     color: rgb(209, 79, 3);
 }
+
 footer img {
     width: 130px;
     padding: 1em;

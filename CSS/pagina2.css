@@ -7,6 +7,7 @@
     text-decoration: none;
     scroll-behavior: smooth;
 }
+
 header {
     background-color: #000000;
     display: flex;
@@ -120,6 +121,11 @@ body {
     border-radius: 10px;
 }
 
+.div-1:hover {
+    transition: 2s;
+    box-shadow: 20px 20px 20px black;
+}
+
 .imoveis img {
     width: 350px;
     height: 200px;
@@ -129,7 +135,7 @@ body {
 
 .imoveis img:hover {
     transform: scale(1.02);
-    transition: .2s;
+    transition: 2s;
 }
 
 .div-1 ul {
