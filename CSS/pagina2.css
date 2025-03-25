@@ -36,9 +36,14 @@ header ul li {
     padding: 1em;
 }
 
+header ul li a:hover {
+    color: rgb(209, 79, 3);
+}
+
 body {
     background-color: #333333;
 }
+
 .introducao {
     margin-top: 4em;
     background: 
@@ -63,7 +68,7 @@ body {
 }
 
 .linha {
-    border: white solid 1px;
+    border: rgb(209, 79, 3) solid 1px;
     width: 100px;
     gap: 1em;
 }
@@ -146,7 +151,7 @@ body {
 }
 
 .div-1 h3 span {
-    color: darkblue;
+    color: rgb(209, 79, 3);
 }
 
 .comentarios {
@@ -203,6 +208,13 @@ footer {
     align-items: center;
     justify-content: center;
     gap: 15px;
+}
+
+footer h3:hover {
+    color: rgb(209, 79, 3);
+}
+footer p:hover {
+    color: rgb(209, 79, 3);
 }
 
 footer img {
