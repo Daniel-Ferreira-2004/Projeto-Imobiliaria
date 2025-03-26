@@ -5,6 +5,7 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <link rel="stylesheet" href="../CSS/form.css">
+    <script src="https://kit.fontawesome.com/057ab5b72f.js" crossorigin="anonymous"></script>
     <title>lOGIN</title>
 </head>
 
@@ -13,16 +14,20 @@
         <div class="div-formulario">
             <div class="logo">
                 <img src="../IMG/casaGrafica-removebg-preview.png" alt="">
-                <h1>JK Imobiliaria</h1>
+                <h1>JK <span>Imobiliaria</span></h1>
             </div>
             <form action="">
-                <label for="input-email">Usuario</label>
-                <input type="email" name="input-email" class="" id="input-email"> <br>
-
-                <label for="input-passwords">Senha</label>
-                <input type="password" name="input-passwords" class="input-passwords" id="input-passwords">
-
-                <input type="submit" value="ENTRAR">
+                <label for="input-email"></label>
+                <input type="email" name="input-email" class="input-email input" id="input-email"
+                    placeholder="Usuario"><i class="fa-solid fa-user-tie"></i>
+                <div class="linha"></div>
+                <label for="input-passwords"></label>
+                <input type="password" name="input-passwords" class="input-passwords input" id="input-passwords"
+                    placeholder="Senha"><i class="fa-solid fa-eye-slash"></i>
+                    <div class="linha"></div>
+                <div class="input-entrar">
+                    <input type="submit" value="ENTRAR" class="input-botao">
+                </div>
             </form>
         </div>
     </section>
