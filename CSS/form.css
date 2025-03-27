@@ -7,7 +7,7 @@
 .formulario {
     width: 100vw;
     height: 100vh;
-    background-image: url(../IMG/nuvem.jpg);
+    background-image: url(../IMG/—Pngtree—abstract\ grunge\ orange\ and\ black_1354688.png);
     background-repeat: no-repeat;
     background-size: cover;
     background-position: center;
@@ -50,16 +50,10 @@ span {
 .input {
     border: 0;
     outline: 0;
-    width: 80%;
+    width: 83%;
     word-wrap: break-word;
     padding: 1em;
-}
-
-.linha {
-    border: rgb(209, 79, 3) solid 1px;
-    width: 90%;
-    display: flex;
-    margin-left: 1em;
+    border-bottom: rgb(209, 79, 3) 2px solid;
 }
 
 .input-entrar {
@@ -73,5 +67,10 @@ span {
     border-radius: 15px;
     padding: 1em;
     background-color: #000000;
-    color: #fff;
+    color: rgb(209, 79, 3);
+}
+
+.input-botao:hover {
+    background-color: rgba(128, 128, 128, 0.185);
+    color: rgb(209, 79, 3);
 }
