@@ -245,10 +245,12 @@ footer {
 
 footer h3:hover {
     color: rgb(209, 79, 3);
+    cursor: pointer;
 }
 
 footer p:hover {
     color: rgb(209, 79, 3);
+    cursor: pointer;
 }
 
 footer img {

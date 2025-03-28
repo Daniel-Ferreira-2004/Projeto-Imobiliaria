@@ -22,7 +22,7 @@
     height: 300px;
     background: #fff;
     border-radius: 20px;
-    padding: 2em;
+    padding: 2em 2em 3em;
     display: flex;
     flex-direction: column;
     justify-content: start;
@@ -59,7 +59,7 @@ span {
 .input-entrar {
     display: flex;
     justify-content: center;
-    padding: 3em 0;
+    padding: 2em 0;
 }
 
 .input-botao {
@@ -72,5 +72,21 @@ span {
 
 .input-botao:hover {
     background-color: rgba(128, 128, 128, 0.185);
+    color: #000000;
+    cursor: pointer;
+}
+
+.link {
+    display: flex;
+    justify-content: center;
+    gap: 15px;
+}
+
+.link a{
+    text-decoration: none;
     color: rgb(209, 79, 3);
+}
+
+.link a:hover {
+    color: #000000;
 }
